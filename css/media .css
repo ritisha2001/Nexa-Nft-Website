@@ -1,0 +1,108 @@
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1400px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav .nav-link {
+        margin: 8px 0;
+    }
+
+    .hero-section {
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .hero-section .col-lg-6 {
+        margin-bottom: 2rem;
+    }
+
+    .latest-artwork-section {
+        border-radius: 0;
+        margin-top: 1rem;
+        padding: 1.5rem 0.5rem;
+    }
+
+    .artwork-card img {
+        height: 160px;
+        object-fit: cover;
+
+    }
+
+    h2 {
+        font-size: 20px !important;
+    }
+
+    .live-auction-section,
+    .discover-nft {
+        border-radius: 0;
+        margin-top: 16px;
+        padding: 1.5rem 0.5rem;
+    }
+
+    .auction-card img {
+        min-height: 120px;
+        object-fit: cover;
+
+    }
+
+    .collection-card {
+        border-radius: 12px;
+        min-height: 80px;
+    }
+
+    .collection-avatar {
+        width: 44px;
+        height: 44px;
+    }
+
+    .nft-card img {
+
+        object-fit: cover;
+    }
+
+    .category-card img {
+        height: 110px !important;
+    }
+    .popular-categories-section {
+        border-radius: 0;
+    }
+
+    
+    .latest-articles-section {
+        border-radius: 0;
+    }
+
+    .footer-section {
+        border-radius: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer-logo {
+        justify-content: flex-start;
+    }
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .searchbar {
+        display: none !important;
+    }
+
+    .main-heading {
+        font-size: 36px;
+    }
+
+    .btn-auction-nav {
+        display: none !important;
+    }
+
+}
